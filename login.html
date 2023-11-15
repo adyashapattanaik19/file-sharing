@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup and Login</title>
+    <link rel="stylesheet" type="text/css" href="g.css">
+</head>
+<body>
+    <h1>Signup and Login</h1>
+    <div id="signup-container">
+        <form id="signup-form">
+            <input type="text" id="signup-username" placeholder="Username" required><br>
+            <input type="password" id="signup-password" placeholder="Password" required><br>
+            <button type="submit">Sign Up</button>
+        </form>
+        <button id="show-login-button">Login</button>
+    </div>
+    <div id="login-container" style="display: none;">
+        <form id="login-form">
+            <input type="text" id="login-username" placeholder="Username" required><br>
+            <input type="password" id="login-password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <button id="show-signup-button">Sign Up</button>
+    </div>
+
+    <div id="login-status"></div>
+
+   
+    <script src="login.js"></script>   
+    
+</body>
+</html>
